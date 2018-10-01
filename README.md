@@ -1,7 +1,7 @@
 # SQL-Server-Action-Agent
 
 ## Prerequisites
-- SQL Server 2010
+- SQL Server 2012
 - Visual Studio (any version that supports .Net Core 2.1)
 - [XMPro IoT Framework NuGet package](https://www.nuget.org/packages/XMPro.IOT.Framework/3.0.2-beta)
 - Please see the [Building an Agent for XMPro IoT](https://docs.xmpro.com/lessons/writing-an-agent-for-xmpro-iot/) guide for a better understanding of how the XMPro IoT Framework works.
@@ -10,7 +10,7 @@
 The *SQL Server Writer Action Agent* allows a specified database and table to be updated with stream data at any point in the flow. In other words, this agent receives data and writes it to a database table.
 
 ## How the code works
-All settings referred to in the code need to correspond with the settings defined in the template that has been created for the agent using the Stream Integration Manager. Refer to the [Stream Integration Manager](https://docs.xmpro.com/topic/getting-to-know-the-framework/#1534129009509-379bd7d3-9f40) guide for instructions on how to define the settings in the template and package the agent after building the code. 
+All settings referred to in the code need to correspond with the settings defined in the template that has been created for the agent using the Stream Integration Manager. Refer to the [Stream Integration Manager](https://docs.xmpro.com/courses/packaging-an-agent-using-stream-integration-manager/) guide for instructions on how to define the settings in the template and package the agent after building the code. 
 
 After packaging the agent, you can upload it to XMPro IoT and start using it.
 
