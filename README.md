@@ -1,4 +1,4 @@
-# SQL-Server-Action-Agent
+# SQL Server Action Agent
 
 ## Prerequisites
 - SQL Server 2012+
